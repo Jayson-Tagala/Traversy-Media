@@ -1,0 +1,182 @@
+body {
+  background-color: #fff;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.35em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+.button a {
+  padding: 10px;
+}
+
+.read {
+  padding-top: 20px;
+  text-align: end;
+}
+.box-1 {
+  background-color: #333;
+  color: #fff;
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border: 5px red solid;
+  padding: 15px;
+  margin-top: 20px;
+  margin: 20px;
+}
+
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.box-2 {
+  border: 3px dotted #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-2 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+/*  */
+a:hover {
+  color: red;
+}
+/*  */
+a:active {
+  color: green;
+}
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block .heading {
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.main-block {
+  float: left;
+  width: 70%;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background-color: black;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  /* background-position: 100px 200px; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+
+.p-box .img {
+  background-position: 100px 200px;
+  width: 800px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-color: center;
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 100px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
