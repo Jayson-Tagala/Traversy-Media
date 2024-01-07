@@ -26,6 +26,11 @@ function onClick(e) {
   console.log(e.screenX);
   console.log(e.screenY);
 }
+/* The `function onDrag(e)` is a callback function that is triggered when the `drag` event occurs on
+the `logo` element. It takes an event object `e` as a parameter. In this function, the text content
+of the `<h1>` element is updated to display the current position of the mouse cursor during the drag
+event. The `e.clientX` and `e.clientY` properties are used to get the x and y coordinates of the
+mouse cursor relative to the window, and these values are then displayed in the `<h1>` element. */
 function onDrag(e) {
   document.querySelector("h1").textContent = `X ${e.clientX} Y ${e.clientY}`;
 }
