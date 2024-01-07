@@ -4,8 +4,6 @@
 //
 const clearBtn = document.querySelector("#clear");
 
-/* The `function onClear() {` is defining a JavaScript function named `onClear`. This function is
-responsible for clearing the items in a list. */
 function onClear() {
   const itemList = document.querySelector("ul");
   const items = itemList.querySelectorAll("li");
@@ -36,7 +34,4 @@ clearBtn.addEventListener("click", () => {
 
 // setTimeout(() => clearBtn.click(), 5000);
 
-/* The line `clearBtn.addEventListener("click", onClear);` is adding an event listener to the
-`clearBtn` element. When the `click` event occurs on the `clearBtn`, the `onClear` function will be
-executed. */
 clearBtn.addEventListener("click", onClear);
